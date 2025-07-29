@@ -1,6 +1,4 @@
 # ui-netflix
 using html and css
 
-
-
-https://unrivaled-baklava-12b7f6.netlify.app/
+https://sparkling-longma-39eaf1.netlify.app/
