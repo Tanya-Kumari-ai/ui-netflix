@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg1.jpg");
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute; /*to set the nav on the box*/
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 60vw; /*to set the nav in between of the page*/
+    margin: auto;  
+    height: 62px;
+}
+nav img{
+    width: 114px;
+    position: relative; /*to set the logo and the buttons on the top*/
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 16px;
+    padding: 0 30px;
+}
+.hero p{ 
+    font-weight:bolder;
+    font-size: 66px;
+    text-align: center;
+} 
+.hero span{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px ;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.main input{
+    padding: 9px 35px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgb(23,23,23,0.2); /*to make it transparent*/
+}
+
